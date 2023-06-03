@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color:red;
+}
+.container .sidebar{
+    width: 10%;
+    height: 100%;
+    background-color:#242b2e;
+    float: left;
+}
+.companylogo .logo{
+    width: 100%;
+    background-color:rgb(107, 107, 207);
+}
+.nav-items-list > .nav-item > .nav-link{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-items-list > .nav-item{
+    padding: 10px 10px;
+    background-color:#242b2e;
+    /* font-weight: bold; */
+    border-bottom: 1px dashed #0d1011;
+}
+.mainbar {
+    background-color: #1f1f1f;
+    height: 100vh;
+    width: 90%;
+    padding: 0 40px;
+    float: right;
+}
+article h1{
+    text-align: center;
+    color: #5a4bda;
+    font-size: 40px;
+    margin-bottom: 30px;
+} 
+article p{
+    color: #ffffff;
+    font-size: 17px;
+}  
+.bannerbox{
+    width: 100%;
+    text-align: center;
+    margin: 40px auto;
+  }
+  
+.bannerbox img {
+    width: 500px;
+  }
